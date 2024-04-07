@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+H1, H3, .examples, .card {
+    text-align: center;
+}
+
+
+.cards{
+    position: relative;
+    display: flex;
+
+}
+
+.card:empty{
+    display: none;
+}
+.card{
+    width: 24%; 
+    display: inline-block;
+    background-color: gray;
+}
+
+
+
+.image{
+    width: auto;
+    height: 225.65px;
+}
+
+/*
+.harry_potter {
+    display: flex;
+}
+
+.hermione_granger{
+    display: flex;
+}
+*/
